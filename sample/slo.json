@@ -1,0 +1,16 @@
+{
+  "budget": 2,
+  "line": 90,
+  "bad_bucket_code": "E_BAD_BUCKET",
+  "empty_code": "E_EMPTY",
+  "done_code": "E_DONE",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "buckets": [], "verdicts": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "ok", "bucket": 1 },
+    { "id": 2, "kind": "bad", "bucket": 1 },
+    { "id": 3, "kind": "ok", "bucket": 1 },
+    { "id": 4, "kind": "report", "bucket": 1 },
+    { "id": 5, "kind": "ok", "bucket": 2 }
+  ]
+}
